@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&family=Sintony:wght@400;700&display=swap");
+:root {
+  /* Colors */
+  --color-light-xs: #ffffff;
+  --color-gray-s: #dedede;
+  --color-gray-m: #7d9299;
+  --color-gray-l: #333333;
+  --color-blue-m: #1c5687;
+  --color-blue-l: #113a55;
+  --color-dark-xl: #000000;
+  /* Fonts */
+  --font-body: 'Sintony', sans-serif;
+  --font-title: 'Merriweather', serif;
+  --font-button: 'Merriweather Sans', sans-serif;
+
+  /* font-size */
+  /* 1rem;
+  1.125rem;
+  1.25rem
+  1.625; */
+
+}
+* {
+  box-sizing: border-box;
+}
