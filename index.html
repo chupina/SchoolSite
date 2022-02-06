@@ -7,90 +7,133 @@
   <meta name="description" content="Lake Park School District.Here is the text which summarize page content for SEO purpose. After school tutoring. Personalized learning.Student book fair">
   <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./css/style.css" />
-  <title></title>Lake Park School District</title>
+  <title>Lake Park School District</title>
 </head>
 <body>
 
  <!-- Main website navigation -->
     <nav class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__list-item"><a href="#">home</a></li>
-        <li class="navigation__list-item">about us
-          <ul class="navigation__list-item__inner-list">
-            <li class="navigation__list-item__inner-list-item"><a href="#">general information</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">lake park history</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">in the news</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">about us</a></li>
+           <div class="navigation-burger-menu">
+        <img src="./assets/svg/hamburger_menu.svg" alt="Mobile menu icon" title="Open navigation">
+        <span>Menu</span>
+           </div>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#">Home</a></li>
+        <li class="navigation-item">
+          <button class="sub-menu">About us</button>
+          <ul class="navigation-nested-list">
+            <li class="navigation-nested-list-item"><a href="#">general information</a></li>
+            <li class="navigation-nested-list-item"><a href="#">lake park history</a></li>
+            <li class="navigation-nested-list-item"><a href="#">in the news</a></li>
+            <li class="navigation-nested-list-item"><a href="#">about us</a></li>
           </ul>
         </li>
-        <li class="navigation__list-item"><a href="#"></a>departments</li>
-        <li class="navigation__list-item"><a href="#">programs</a></li>
-        <li class="navigation__list-item"><a href="#">board</a></li>
-        <li class="navigation__list-item"><a href="#">families</a></li>
-        <li class="navigation__list-item"><a href="#">staff</a></li>
-        <li class="navigation__list-item">
-          <ul class="navigation-item__inner-list">
-            <li class="navigation__list-item__inner-list-item"><a href="#">general information</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">lake park history</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">in the news</a></li>
-            <li class="navigation__list-item__inner-list-item"><a href="#">about us</a></li>
+        <li class="navigation-item"><a href="#">departments</a></li>
+        <li class="navigation-item"><a href="#">programs</a></li>
+        <li class="navigation-item"><a href="#">board</a></li>
+        <li class="navigation-item"><a href="#">families</a></li>
+        <li class="navigation-item"><a href="#">staff</a></li>
+        <li class="navigation-item">
+          <button class="sub-menu ">Schools</button>
+          <ul class="navigation-nested-list">
+            <li class="navigation-nested-list-item"><a href="#">Lake Park Elementary</a></li>
+            <li class="navigation-nested-list-item"><a href="#">Lake Park Middle School</a></li>
+            <li class="navigation-nested-list-item"><a href="#">Lake Park High School</a></li>
           </ul>
-        </li>
-        <li class="navigation__list-item">
-          <form class="navigation__list-item__search">
-            <label for="site-search"></label>
+          </li>
+          </ul>  
+       <div class="search-container">
+         <button class="search-button"><img src="./assets/svg/Search Icons/Magnifying Glass.svg" alt="open search" title="site search"></button>
+       
+           <form class="navigation-search hidden">
+           
             <input type="search" id="site-search" name="q"
                     aria-label="Search through site content"
                     placeholder="Search...">
-             <button>Search</button></li>
-          </form>
-      </ul>
+             <button>Search</button>
+         </form> </div>
+      
+      
     </nav>
 
     <!-- Header -->
     <header class="header">
-      <div class="header__info">
-        <img class="header__logo" src="./assets/logo.png" title="lake park school district" alt="lake park school district logo" >
-        <h1 class="header__info__title">Lake Park school district</h1>
-        <p class="header__info__slogan">Let's advance learning</p>
+      
+       <div class="header-content">
+        <img class="header-logo" src="./assets/logo.png" title="lake park school district" alt="lake park school district logo" width="116px height="100px >
+       <div class="header-info-wrapper">
+        <h1 class="header-title">Lake Park school district</h1>
+        <p class="header-slogan">Let's advance learning</p> 
+       </div>
       </div>
-      <nav class="header__navigation">
-        <ul class="header__navigation__list">
-          <li class="header__navigation__list-item"><a href="#"></a>contact us</li>
-          <li class="header__navigation__list-item" ><a href="#">bus routes</a></li>
-          <li class="header__navigation__list-item"><a href="#">events</a></li>
+      <nav class="header-navigation">
+        <ul class="header-navigation-list">
+          <li class="header-navigation-item"><a href="#"></a>contact us</li>
+          <li class="header-navigation-item" ><a href="#">bus routes</a></li>
+          <li class="header-navigation--item"><a href="#">events</a></li>
         </ul>
       </nav>
-    </header>
+    </header> 
+    
+      
 
     <!-- Main website content -->
     <main>
-     <section class="welcome">
-      <div class="welcome__slider">
-      <ul class="welcome__slider__slides">
-        <li class="welcome__slider__item"><img src="./assets/main_images/Main_Image.png" alt="teacher and kids in the classroom"></li>
-        <li class="welcome__slider__item"><img src="./assets/main_images/Soccer_image.png" alt="soccer field"></li>
-        <li class="welcome__slider__item"><img src="./assets/main_images/Main_Image.png" alt="teacher and kids in the classroom"></li>
-        <li class="welcome__slider__item"><img src="./assets/main_images/Main_Image.png" alt="teacher and kids in the classroom"></li>
-      </ul>
-      </div>
-      <div class="welcome__info">
-        <h3 class="welcome__info__title">Welcome to Our Site</h3>
-        <p class="welcome__info__description">
-          Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper venenatis
-          torquent parturient condimentum facilisis diam lacinia.
-        </p>
-        <a href="" class="welcome__learn-more">Learn more</a>
-      </div>
+     <section class="hero">
 
-    </section> 
-    <section class="news">
-      <div class="news__title">
-        <h2 class="news__title__heading">Current News</h2>
-         <a href="" class="news__title__read-more">More</a>
+      <div id="slider" class="slider">
+        <div class="wrapper">
+          <div id="slides" class="slides">
+            <div class="slide"><img src="./assets/main_images/main_image.png" alt=""></div>
+            <div class="slide"><img src="./assets/main_images/Soccer_image.png" alt=""></div>
+            <div class="slide"><img src="./assets/main_images/main_image.png" alt=""></div>
+            <div class="slide"><img src="./assets/main_images/Soccer_image.png" alt=""></div>
+            
+          </div>
+        </div>
+        <menu class="slider-controls">
+          <button class="controls-button" id="prev"><img src="./assets/svg/controls/arrow.svg" alt="previous slide"></button>
+          <button class="controls-button" id="play"><img src="./assets/svg/controls/pause.svg" alt="pause slideshow"></button>
+          <button class="controls-button" id="next"><img src="./assets/svg/controls/arrow.svg" alt="next slide"></button>
+        </menu> 
       </div>
-      <div class="news__gallery">
-        <article class="news__article">
+        <!-- <div class="hero-slider-wrapper" id="slider">
+          <div class="slider-window">
+            <ul class="hero-slides" id="slides">
+          <li class="hero-slide">
+            <img class="hero-slides-image" src="./assets/main_images/main_image.png" alt="">
+            
+          </li>
+          <li class="hero-slide"><img class="hero-slides-image" src="./assets/main_images/Soccer_image.png" alt=""></li>
+          <li class="hero-slide"><img class="hero-slides-image" src="./assets/main_images/main_image.png" alt=""></li>
+          <li class="hero-slide"><img class="hero-slides-image" src="" alt=""></li>
+        </ul>  
+        <menu class="slider-controls">
+          <button class="controls-button" id="prev"><img src="./assets/svg/controls/arrow.svg" alt="previous slide"></button>
+          <button class="controls-button" id="play"><img src="./assets/svg/controls/pause.svg" alt="pause slideshow"></button>
+          <button class="controls-button" id="next"><img src="./assets/svg/controls/arrow.svg" alt="next slide"></button>
+        </menu> 
+          </div>
+          <div class="slide-info">
+            <h2 class="slide-title">Welcome to Our Site</h2>
+          <p class="slide-description">
+            Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper venenatis torquent
+             parturient condimentum facilisis diam lacinia.
+          </p>
+          <a href="#" class="primaty-button">Learn More</a>
+        </div>
+        
+                </div> -->
+     
+   
+      </section> 
+    <section class="news">
+      <div class="news-title">
+        <h2 class="news-heading">Current News</h2>
+         <a href="" class="primary-button">More</a>
+      </div>
+      <div class="news-gallery">
+        <article class="news-article">
           <img src="./assets/news_images/kimberly-farmer-287677-unsplash.png" alt="stacked books" title="Student book fair">
           <h3>Student book fair</h3>
           <p>
@@ -98,7 +141,7 @@
             venenatis torquent parturient condimentum facilisis diam lacinia.
           </p>
         </article>
-        <article class="news__article">
+        <article class="news-article">
           <img src="./assets/news_images/187150362_4167305129957011_4787881228705621978_n.png" alt="learner before computer screen" title="Personalized learning" >
           <h3>Personalized learning</h3>
           <p>
@@ -106,13 +149,13 @@
              suspendisse ullamcorper parturientnascetur lobortis.
           </p>
         </article>
-        <article class="news__article">
+        <article class="news-article">
           <img src="./assets/news_images/bus-878697_1920.png" alt="school bus with stop sign" title="Bus safety month">
           <h3>Bus safety month</h3>
           <p>Leo aenean elementum senectus ut tincidunt conubia nec a metus
              parturient volutpat venenatis.</p>
         </article>
-        <article class="news__article">
+        <article class="news-article">
           <img src="./assets/news_images/186027642_4150830851604439_2713297670727753817_n.png" alt="Student with notebook">
           <h3>After school tutoring</h3>
           <p>
@@ -123,59 +166,62 @@
       </div>
     </section> 
     <section class="info">
-<div class="info__announcenments">
-  <h3 class="info__announcenments__title"> Announcements </h3>
-  <p class="info__announcements__description">
+<div class="announcements">
+  <h3 class="announcements-title"> Announcements </h3>
+  <p class="announcements-description">
     Lacinia interdum hac luctus suspendisse odio ridiculus blandit suspendisse vestibulum
      montes ad condimentum mus metus scelerisque a vestibulum lobortis potenti condimentum scelerisque pulvinar. 
   </p>
-  <p class="info__announcements__description">
+  <p class="announcements-description">
     Tellus proin elit litora nisi a varius lacus ullamcorper placerat ridiculus sit eros id
      dignissim a aliquet. 
   </p>
-  <p class="info__announcements__description">
+  <p class="announcements-description">
     Augue sodales ullamcorper facilisis elit vestibulum adipiscing a laoreet eros vestibulum ut
      vivamus a turpis justo in vestibulum phasellus et odio sed ad leo.
   </p>
-  <a href="" class="info__announcenments__read-more">More</a>
+  <a href="" class="primary-button">More</a>
    </div>
-   <div class="info__shortcuts">
-     <h2 class="info__shortcuts__title">Site Shortcuts</h2>
-     <ul>
-       <li><a href="">Tip Line</a></li>
-       <li><a href="">Stay Informed - Weekly e-Newsletter</a></li>
-       <li><a href="">Volunteer Opportunities</a></li>
-       <li><a href="">Report Bullying</a></li>
-       li><a href="">Child Find - Information About Special Education Services</a></li>
-       <li><a href="">SSystem of Great Schools Information</a></li>
+   <div class="shortcut-links">
+     <h2 class="shortcuts-title">Site Shortcuts</h2>
+     <ul class="shortcut-links-list" >
+       <li class="shortcut-link"><a href="#">Tip Line</a></li>
+       <li class="shortcut-link"><a href="#">Stay Informed - Weekly e-Newsletter</a></li>
+       <li class="shortcut-link"><a href="#">Volunteer Opportunities</a></li>
+       <li class="shortcut-link"><a href="#">Report Bullying</a></li>
+       <li class="shortcut-link"><a href="#">Child Find - Information About Special Education Services</a></li>
+       <li class="shortcut-link"><a href="#">System of Great Schools Information</a></li>
      </ul>
    </div>
     </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-<address class="footer__address"></address>
-<div class="footer__nav-buttons">
-  <button class="footer__nav-button">Site map</button>
-  <button class="footer__nav-button">Back to top</button>
+<address class="footer-address">
+  <a href="#" class="address-link">
+    <span>3395 Harrison Avenue<span class="punctuation">,</span></span>
+    <span>Beaumont, TX 77706</span>
+  </a>
+  <a href="#" class="address-link">Phone: 409-617-5000</a>
+</address>
+<div class="footer-nav-buttons">
+  <button class=" primary-button">Site map</button>
+  <button class="primary-button">Back to top</button>
 </div>
-<nav class="footer__navigation">
-  <ul>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+<nav class="footer-navigation">
+  <ul class="footer-navigation-list">
+    <li class="footer-navigation-item"><a href="#">Accreditation</a></li>
+    <li class="footer-navigation-item"><a href="#">Non-Discrimination Policy</a></li>
+    <li class="footer-navigation-item"><a href="#">Newsletter</a></li>
+    <li class="footer-navigation-item"><a href="#">Contact Us</a></li>
   </ul>
 </nav>
-<div class="footer__social-media">
+<div class="footer-social-media">
   <span>Follow us</span>
-  <ul>
-    <li>facebook</li>
-    <li>twitter</li>
-  </ul>
+    <a href="" class="social-media-link"><img src="./assets/svg/Social Media/Facebook.svg" alt="facebook"></a>
+    <a href="" class="social-media-link"><img src="./assets/svg/Social Media/Twitter.svg" alt="twitter"></a>
 </div>
-
     </footer>
-  
+  <script src="./main.js"></script>
 </body>
 </html>
