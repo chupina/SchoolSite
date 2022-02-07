@@ -1,4 +1,4 @@
-
+const scrollToTopBtn = document.querySelector("#scrollToTop");
 // var slider = document.getElementById('slider'),
 // sliderItems = document.getElementById('slides'),
 // prev = document.getElementById('prev'),
@@ -117,3 +117,10 @@
 // }
 
 // slide(slider, sliderItems, prev, next);
+let scrollToTop = ()=>{
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
