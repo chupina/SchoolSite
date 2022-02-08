@@ -15,7 +15,7 @@
   <body>
     <!-- Main website navigation -->
     <nav class="navigation">
-      <button class="navigation-burger-menu">
+      <button class="navigation-burger-menu"> 
         Menu
       </button>
       <ul class="navigation-list">
@@ -124,10 +124,11 @@
     <!-- Main website content -->
     <main>
       <section class="hero">
+        <div class="wrapper">
         <div id="slider" class="slider">
-          <div class="wrapper">
+          
             <div id="slides" class="slides">
-              <div class="slide">
+              <div class="slide active">
                 <img src="./assets/main_images/main_image.png" alt="" />
               </div>
               <div class="slide">
@@ -140,7 +141,7 @@
                 <img src="./assets/main_images/Soccer_image.png" alt="" />
               </div>
             </div>
-          </div>
+         
           <menu class="slider-controls">
             <button class="controls-button" id="prev">
               <img src="./assets/svg/controls/arrow.svg" alt="previous slide" />
@@ -156,33 +157,15 @@
             </button>
           </menu>
         </div>
-        <!-- <div class="hero-slider-wrapper" id="slider">
-          <div class="slider-window">
-            <ul class="hero-slides" id="slides">
-          <li class="hero-slide">
-            <img class="hero-slides-image" src="./assets/main_images/main_image.png" alt="">
-            
-          </li>
-          <li class="hero-slide"><img class="hero-slides-image" src="./assets/main_images/Soccer_image.png" alt=""></li>
-          <li class="hero-slide"><img class="hero-slides-image" src="./assets/main_images/main_image.png" alt=""></li>
-          <li class="hero-slide"><img class="hero-slides-image" src="" alt=""></li>
-        </ul>  
-        <menu class="slider-controls">
-          <button class="controls-button" id="prev"><img src="./assets/svg/controls/arrow.svg" alt="previous slide"></button>
-          <button class="controls-button" id="play"><img src="./assets/svg/controls/pause.svg" alt="pause slideshow"></button>
-          <button class="controls-button" id="next"><img src="./assets/svg/controls/arrow.svg" alt="next slide"></button>
-        </menu> 
-          </div>
-          <div class="slide-info">
-            <h2 class="slide-title">Welcome to Our Site</h2>
+                 <div class="slide-info">
+            <h2 class="slide-title">Welcome to Our Site!</h2>
           <p class="slide-description">
             Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper venenatis torquent
              parturient condimentum facilisis diam lacinia.
           </p>
-          <a href="#" class="primaty-button">Learn More</a>
+          <a href="#" class="primary-button">Learn More</a>
         </div>
-        
-                </div> -->
+      </div> 
       </section>
       <section class="news">
         <div class="news-title">
@@ -310,7 +293,7 @@
           <span>3395 Harrison Avenue<span class="punctuation">,</span></span>
           <span>Beaumont, TX 77706</span>
         </a>
-        <a href="tel:4096175000" class="address-link">Phone: 409-617-5000</a>
+        <a href="" class="address-link">Phone: 409-617-5000</a>
       </address>
       <div class="footer-nav-buttons">
         <button class="primary-button site-map">Site map</button>
@@ -338,6 +321,7 @@
         /></a>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
