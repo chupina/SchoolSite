@@ -4,7 +4,7 @@ const next = document.querySelector("#next");
 const play = document.querySelector("#play");
 const slides = document.querySelectorAll(".slide");
 
-let scrollToTop = () => {
+const scrollToTop = () => {
   document.documentElement.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -29,10 +29,15 @@ const slider = {
     for (let el of this.slides) {
       el.style.opacity = "0";
     }
-    let previewIdx = this.slideIndex === this.slides.length ? 0 : this.slideIndex;
+    let previewIdx =
+      this.slideIndex === this.slides.length ? 0 : this.slideIndex;
     this.slides[this.slideIndex - 1].style.opacity = "1";
-    let previewImg = document.querySelectorAll(".slide-img")[previewIdx].getAttribute("src");
-    document.querySelector(".slide-info").style.backgroundImage = `url(${previewImg})`;
+    let previewImg = document
+      .querySelectorAll(".slide-img")
+      [previewIdx].getAttribute("src");
+    document.querySelector(
+      ".slide-info"
+    ).style.backgroundImage = `url(${previewImg})`;
   },
   start() {
     this.timerId = setInterval(() => this.shiftSlide(1), 5000);
@@ -46,7 +51,7 @@ const slider = {
   play() {
     if (this.timerId) {
       clearInterval(this.timerId);
-  }
+    }
     if (play.classList.contains("play")) {
       play.classList.toggle("play");
       this.start();
@@ -73,7 +78,6 @@ const slider = {
 	</g>
 </svg>`;
     }
-   
   },
 };
 
