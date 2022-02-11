@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Lake Park School District.Here is the text which summarize page content for SEO purpose. After school tutoring. Personalized learning.Student book fair"
+      content="Lake Park School District.After school tutoring. Personalized learning.Student book fair"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -15,9 +15,7 @@
   <body>
     <!-- Main website navigation -->
     <nav class="navigation">
-      <button class="navigation-burger-menu"> 
-        Menu
-      </button>
+      <button class="navigation-burger-menu">Menu</button>
       <ul class="navigation-list">
         <li class="navigation-item"><a href="#">Home</a></li>
         <li class="navigation-item">
@@ -110,10 +108,7 @@
           </li>
           <li class="header-navigation--item">
             <a class="header-global-link" href="#"
-              ><img
-                src="./assets/svg/global_cons/calendar.svg"
-                alt="Events"
-              />
+              ><img src="./assets/svg/global_cons/calendar.svg" alt="Events" />
               <span>Events</span></a
             >
           </li>
@@ -125,47 +120,117 @@
     <main>
       <section class="hero">
         <div class="wrapper">
-        <div id="slider" class="slider">
-          
-            <div id="slides" class="slides">
-              <div class="slide active">
-                <img src="./assets/main_images/main_image.png" alt="" />
-              </div>
-              <div class="slide">
-                <img src="./assets/main_images/Soccer_image.png" alt="" />
-              </div>
-              <div class="slide">
-                <img src="./assets/main_images/main_image.png" alt="" />
-              </div>
-              <div class="slide">
-                <img src="./assets/main_images/Soccer_image.png" alt="" />
-              </div>
-            </div>
-         
-          <menu class="slider-controls">
-            <button class="controls-button" id="prev">
-              <img src="./assets/svg/controls/arrow.svg" alt="previous slide" />
-            </button>
-            <button class="controls-button" id="play">
-              <img
-                src="./assets/svg/controls/pause.svg"
-                alt="pause slideshow"
-              />
-            </button>
-            <button class="controls-button" id="next">
-              <img src="./assets/svg/controls/arrow.svg" alt="next slide" />
-            </button>
-          </menu>
-        </div>
-                 <div class="slide-info">
+          <div id="slider" class="slider">
+            <ul id="slides" class="slides">
+              <li class="slide">
+                <img
+                  class="slide-img"
+                  src="./assets/main_images/main_image.png"
+                  alt="Teacher and students in the classroom"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  class="slide-img"
+                  src="./assets/main_images/Soccer_image.png"
+                  alt="soccer field"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  class="slide-img"
+                  src="./assets/main_images/board.png"
+                  alt="School black board"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  class="slide-img"
+                  src="./assets/main_images/school_kids.png"
+                  alt="School students"
+                />
+              </li>
+            </ul>
+
+            <menu class="slider-controls">
+              <button class="controls-button" id="prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon"
+                  width="8.706"
+                  height="12.971"
+                  viewBox="0 0 8.706 12.971"
+                >
+                  <path
+                    id=":eft_Arrow"
+                    data-name="Left Arrow"
+                    d="M6.506,5.778C7.993,4,9.433,2.259,10.891.546a1.76,1.76,0,0,1,.894-.527.96.96,0,0,1,1.082.574,1.085,1.085,0,0,1-.151,1.27L9.593,5.618,7.447,8.177a1.125,1.125,0,0,1-1.882,0C3.844,6.107,2.112,4.047.409,1.958a1.769,1.769,0,0,1-.367-.875A1.032,1.032,0,0,1,.776.048,1.107,1.107,0,0,1,2.037.424C3.157,1.76,4.267,3.1,5.387,4.432Z"
+                    transform="translate(8.686 -0.036) rotate(90)"
+                  />
+                </svg>
+              </button>
+              <button class="controls-button play" id="play">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="8.647"
+                  height="13.564"
+                  viewBox="0 0 8.647 13.564"
+                >
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect
+                        id="Rectangle_407"
+                        data-name="Rectangle 407"
+                        width="8.647"
+                        height="13.564"
+                        fill="none"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g id="Pause" clip-path="url(#clip-path)">
+                    <path
+                      id="Path_948"
+                      data-name="Path 948"
+                      d="M1.255,13.531h0A1.255,1.255,0,0,1,0,12.276V1.222a1.272,1.272,0,1,1,2.543,0V12.276a1.255,1.255,0,0,1-1.289,1.255"
+                      transform="translate(0 0.033)"
+                    />
+                    <path
+                      id="Path_949"
+                      data-name="Path 949"
+                      d="M19.355,13.531h0A1.255,1.255,0,0,1,18.1,12.276V1.222a1.272,1.272,0,1,1,2.543,0V12.276a1.255,1.255,0,0,1-1.289,1.255"
+                      transform="translate(-11.962 0.033)"
+                    />
+                  </g>
+                </svg>
+              </button>
+              <button class="controls-button" id="next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon right"
+                  width="8.706"
+                  height="12.971"
+                  viewBox="0 0 8.706 12.971"
+                >
+                  <path
+                    id="Arrow"
+                    d="M6.506,5.778C7.993,4,9.433,2.259,10.891.546a1.76,1.76,0,0,1,.894-.527.96.96,0,0,1,1.082.574,1.085,1.085,0,0,1-.151,1.27L9.593,5.618,7.447,8.177a1.125,1.125,0,0,1-1.882,0C3.844,6.107,2.112,4.047.409,1.958a1.769,1.769,0,0,1-.367-.875A1.032,1.032,0,0,1,.776.048,1.107,1.107,0,0,1,2.037.424C3.157,1.76,4.267,3.1,5.387,4.432Z"
+                    transform="translate(8.686 -0.036) rotate(90)"
+                  />
+                </svg>
+              </button>
+            </menu>
+          </div>
+          <div class="slide-info">
             <h2 class="slide-title">Welcome to Our Site!</h2>
-          <p class="slide-description">
-            Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper venenatis torquent
-             parturient condimentum facilisis diam lacinia.
-          </p>
-          <a href="#" class="primary-button">Learn More</a>
+            <p class="slide-description">
+              Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper
+              venenatis torquent parturient condimentum facilisis diam lacinia.
+            </p>
+            <a href="#" class="primary-button">Learn More</a>
+          </div>
         </div>
-      </div> 
       </section>
       <section class="news">
         <div class="news-title">
@@ -174,69 +239,70 @@
         </div>
         <div class="news-gallery">
           <a href="#">
-          <article class="news-article">
-            <div class="article-img">
-              <img
-              src="./assets/news_images/kimberly-farmer-287677-unsplash.png"
-              alt="stacked books"
-              title="Student book fair"
-            />
-            </div>
-            
-            <h3>Student book fair</h3>
-            <p>
-              Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper
-              venenatis torquent parturient condimentum facilisis diam lacinia.
-            </p>
-          </article>
+            <article class="news-article">
+              <div class="article-img">
+                <img
+                  src="./assets/news_images/kimberly-farmer-287677-unsplash.png"
+                  alt="stacked books"
+                  title="Student book fair"
+                />
+              </div>
+
+              <h3>Student book fair</h3>
+              <p>
+                Ullamcorper arcu ante duis mus condimentum dapibus ullamcorper
+                venenatis torquent parturient condimentum facilisis diam
+                lacinia.
+              </p>
+            </article>
           </a>
           <a href="#">
-          <article class="news-article">
-            <div class="article-img">
-            <img
-              src="./assets/news_images/187150362_4167305129957011_4787881228705621978_n.png"
-              alt="learner before computer screen"
-              title="Personalized learning"
-            />
-            </div>
-            <h3>Personalized learning</h3>
-            <p>
-              Venenatis feugiat velit blandit aliquam nullam lectus odio a ut
-              suspendisse ullamcorper parturientnascetur lobortis.
-            </p>
-          </article>
+            <article class="news-article">
+              <div class="article-img">
+                <img
+                  src="./assets/news_images/187150362_4167305129957011_4787881228705621978_n.png"
+                  alt="learner before computer screen"
+                  title="Personalized learning"
+                />
+              </div>
+              <h3>Personalized learning</h3>
+              <p>
+                Venenatis feugiat velit blandit aliquam nullam lectus odio a ut
+                suspendisse ullamcorper parturientnascetur lobortis.
+              </p>
+            </article>
           </a>
           <a href="#">
-          <article class="news-article">
-            <div class="article-img">
-            <img
-              src="./assets/news_images/bus-878697_1920.png"
-              alt="school bus with stop sign"
-              title="Bus safety month"
-            />
-            </div>
-            <h3>Bus safety month</h3>
-            <p>
-              Leo aenean elementum senectus ut tincidunt conubia nec a metus
-              parturient volutpat venenatis.
-            </p>
-          </article>
+            <article class="news-article">
+              <div class="article-img">
+                <img
+                  src="./assets/news_images/bus-878697_1920.png"
+                  alt="school bus with stop sign"
+                  title="Bus safety month"
+                />
+              </div>
+              <h3>Bus safety month</h3>
+              <p>
+                Leo aenean elementum senectus ut tincidunt conubia nec a metus
+                parturient volutpat venenatis.
+              </p>
+            </article>
           </a>
           <a href="#">
-          <article class="news-article">
-            <div class="article-img">
-            <img
-              src="./assets/news_images/186027642_4150830851604439_2713297670727753817_n.png"
-              alt="Student with notebook"
-            />
-            </div>
-            <h3>After school tutoring</h3>
-            <p>
-              Ad dapibus parturient consectetur nec aptent aenean metus
-              ullamcorper et nisi pulvinar lectus nisi suscipit pulvinar
-              vestibulum malesuada.
-            </p>
-          </article>
+            <article class="news-article">
+              <div class="article-img">
+                <img
+                  src="./assets/news_images/186027642_4150830851604439_2713297670727753817_n.png"
+                  alt="Student with notebook"
+                />
+              </div>
+              <h3>After school tutoring</h3>
+              <p>
+                Ad dapibus parturient consectetur nec aptent aenean metus
+                ullamcorper et nisi pulvinar lectus nisi suscipit pulvinar
+                vestibulum malesuada.
+              </p>
+            </article>
           </a>
         </div>
       </section>
@@ -293,11 +359,13 @@
           <span>3395 Harrison Avenue<span class="punctuation">,</span></span>
           <span>Beaumont, TX 77706</span>
         </a>
-        <a href="" class="address-link">Phone: 409-617-5000</a>
+        <a href="tel:409617500" class="address-link">Phone: 409-617-5000</a>
       </address>
       <div class="footer-nav-buttons">
         <button class="primary-button site-map">Site map</button>
-        <button class="primary-button back-top" id="scrollToTop">Back to top</button>
+        <button class="primary-button back-top" id="scrollToTop">
+          Back to top
+        </button>
       </div>
       <nav class="footer-navigation">
         <ul class="footer-navigation-list">
@@ -321,6 +389,6 @@
         /></a>
       </div>
     </footer>
-       <script src="./main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
